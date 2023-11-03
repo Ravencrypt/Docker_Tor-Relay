@@ -23,6 +23,7 @@ If you are looking for incentives to run the relay and support a great project I
 
 ATOR empowers the adoption and strength of the Tor network. ATOR Proof-of-Uptime and relay hardware allow users to earn passively while contributing to Tor.
 
+
 The Docs can be found here:
 https://docs.ator.io/
 Website
@@ -32,4 +33,6 @@ https://twitter.com/atorprotocol
 
 
 There is no additional work (If you already have an On-Chain Crypto wallet like Metamask, Rabby or similar)
+
+
 Simply add "@ator: [YOUR WALLET ADDRESS]" to the ContactInfo in the torrc config file and claim your Node here: https://ator-dashboard.ar-io.dev/
