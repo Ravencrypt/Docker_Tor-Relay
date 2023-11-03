@@ -20,6 +20,7 @@ My Folderstructure is as follows, you can use the same or a different one, just 
             |-- torrc
 ```
 If you are looking for incentives to run the relay and support a great project I higly recommend to look into ATOR. (Still in testnet as of 03.11.23)
+
 ATOR empowers the adoption and strength of the Tor network. ATOR Proof-of-Uptime and relay hardware allow users to earn passively while contributing to Tor.
 
 The Docs can be found here:
