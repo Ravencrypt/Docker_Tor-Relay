@@ -2,7 +2,7 @@
 A lightweight Docker Container containing Tor and Nyx based on Alpine Linux (around 100mb)
 
 
-In this repository you will find everything you need to set up an ultra lightweight Docker container containing Tor (as middle relay) and Nyx.
+In this repository you will find everything you need to set up an lightweight Docker container containing Tor (as middle relay) and Nyx.
 
 My Folderstructure is as follows, you can use the same or a different one, just adjust the paths accordingly if you take another one:
 ```
@@ -19,6 +19,16 @@ My Folderstructure is as follows, you can use the same or a different one, just 
         |-- /conf
             |-- torrc
 ```
+
+Once you set that up just run build.sh and you are good to go, the container should be setup within seconds.
+
+To run Nyx within the container use:
+
+```
+docker exec -it ator-relay /bin/sh
+nyx
+```
+
 If you are looking for incentives to run the relay and support a great project I higly recommend to look into ATOR. (Still in testnet as of 03.11.23)
 
 ATOR empowers the adoption and strength of the Tor network. ATOR Proof-of-Uptime and relay hardware allow users to earn passively while contributing to Tor.
