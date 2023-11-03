@@ -1,0 +1,16 @@
+```
+ORPort 9001
+DirPort 9030
+ControlPort 9051
+SocksPort 0
+Nickname MyAtorRelay
+ContactInfo yourusername@someprovider.com @ator: [YOUR WALLET]
+BandwidthRate 20 MBits
+BandwidthBurst 40 MBits
+CookieAuthentication 1
+Log Notice File /var/log/tor/notices.log
+DataDirectory /var/lib/tor
+ExitRelay 0
+ExitPolicy reject *:*
+```
+
